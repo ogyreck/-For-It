@@ -1,0 +1,199 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+  
+}
+button a{
+    text-decoration: none !important
+    ;
+    color: #fff !important;
+}
+p::selection, span::selection{
+    
+        color: rgba(255, 255, 255, 0.801); /* Цвет текста */
+        background: rgba(199, 4, 248, 0.685); /* Цвет фона */
+       
+}
+
+.over-lay{
+   
+    height: 100vh;
+   background: rgba(129, 128, 128, 0.164);
+   
+}
+.intro{
+   
+    
+    height: 100vh;
+    
+    
+    
+}
+.main-wir{
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.logo1{
+    text-align: center;
+    padding-top: 1rem;
+}
+.warrning{
+    max-width: 60%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+}
+.main-text{
+   
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: lighter;
+    text-align: center;
+    width: 70%;
+    color: #FFFDFD;
+    margin: auto;
+}
+.section-1{
+    margin-top: 2em;
+    margin-bottom: 4em;
+    background: rgba(129, 128, 128, 0.623);
+    border-radius: 6px;
+    padding: 20px 15px;
+    width: 60%;
+    margin:  30px auto;
+
+}
+.main-text-section-1{
+   
+  
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: normal;
+    text-align: center;
+    width: 80%;
+    color: #e6d1e6;
+    margin: auto;
+}
+.main-text-section-2{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: bolder;
+    text-align: center;
+    width: 70%;
+    color: #1f1d1f;
+    margin:  15px auto;
+}
+.section-2{
+    background-color: #fff;
+    padding-top: 3rem;
+}
+.main-text-section-leb{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: normal;
+    text-align: center;
+    width: 70%;
+    color: #1f1d1f;
+    margin:  15px auto;
+}
+.form span{
+    display: block;
+}
+.leble{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leble input{
+    margin-right: 10px;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px ;
+}
+.btn-a{
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em; 
+    margin-bottom: 2em;
+}
+.form-2{
+    
+    padding: 10px 20px 
+}
+.lebb{
+    text-align: center;
+}
+footer{
+    background-color: rgb(30, 31, 46);
+    padding: 2rem;
+    position: initial;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.footer-text {
+    color: #fff;
+}
+.text-f{
+    text-align: center;
+}
+.links{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.links .footer-text{
+    margin-left: 10px;
+}
+@media (max-width:520px) {
+    .logo1{
+        width: 95%;
+        margin: auto;
+    }
+    .warrning{
+        /* /* display: none; */
+        flex-direction: column;
+    }
+    .main-text{
+        width: 111%;
+        margin-top: 20px;
+    }
+    .section-1{
+        margin: 2em auto;
+        padding: 10px 15px;
+    }
+    .main-text{
+        font-size: 16px;
+    line-height: 22px;
+    font-weight: lighter;
+    text-align: center;
+    
+    color: #FFFDFD;
+   
+    }
+    .main-text-section-1{
+        font-size: 16px;
+
+    }
+    .form{
+        flex-direction: column;
+    }
+    .section-2{
+        padding-top: 1rem
+    }
+    .leble{
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+    
+}
